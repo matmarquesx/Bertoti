@@ -1,4 +1,4 @@
-package eng3.antipattern;
+package strategy.antipattern;
 
 public class Aviao extends Veiculo {
     @Override

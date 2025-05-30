@@ -1,4 +1,4 @@
-package eng3.antipattern;
+package strategy.antipattern;
 
 public abstract class Veiculo {
     public void andar() {} // Método vazio para veículos que não andam

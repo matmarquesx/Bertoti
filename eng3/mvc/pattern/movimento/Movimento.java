@@ -1,4 +1,4 @@
-package eng3.pattern;
+package mvc.pattern.movimento;
 
 public interface Movimento {
     void mover();

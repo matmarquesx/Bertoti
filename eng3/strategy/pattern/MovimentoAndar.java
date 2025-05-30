@@ -1,4 +1,4 @@
-package eng3.pattern;
+package strategy.pattern;
 
 public class MovimentoAndar implements Movimento {
     @Override
