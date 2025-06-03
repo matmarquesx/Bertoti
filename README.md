@@ -1,11 +1,9 @@
 # Bertoti
 
-Este projeto demonstra a aplicação de diversos padrões de projeto de software (Design Patterns) em Java, utilizando um contexto temático de "Organismos Biológicos" como refatoração de um código original baseado em "Veículos". O objetivo é ilustrar como os mesmos conceitos de arquitetura e padrões podem ser aplicados em diferentes domínios, mantendo a lógica e a estrutura originais.
-
-
+Este projeto demonstra a aplicação de diversos padrões de projeto de software (Design Patterns) em Java, utilizando um contexto temático de "Organismos Biológicos".
 ## Padrões de Projeto Implementados
 
-O código refatorado demonstra os seguintes padrões:
+O código demonstra os seguintes padrões:
 
 1. **Strategy:** Permite definir uma família de algoritmos (ações de um organismo), encapsular cada um deles e torná-los intercambiáveis. Visto nos pacotes `eng3.strategy.pattern` e `eng3.mvc.pattern.acao`, onde diferentes `Acao` (como `AcaoCaminhar`, `AcaoCorrer`) podem ser atribuídas a um `Organismo`.
 
@@ -15,7 +13,7 @@ O código refatorado demonstra os seguintes padrões:
 
 4. **MVC (Model-View-Controller) - Integração:** Embora não seja uma implementação MVC completa com UI, o pacote `eng3.mvc.pattern` (e seus subpacotes) integra os padrões Strategy, Observer e Composite para simular um sistema onde diferentes componentes interagem. `Organismo` atua como parte do *Model*, as ações (`Acao`) e estruturas (`EstruturaBiologica`) também compõem o *Model*, e `SimulacaoBiologica` em `eng3.mvc.pattern.observer` age como um *Controller/Runner* que orquestra as interações e a saída (simulando a *View*) no console.
 
-## Estrutura do Projeto (Conforme Imagem Fornecida)
+## Estrutura do Projeto
 
 A estrutura de diretórios principal do código-fonte, baseada na imagem fornecida, é:
 
